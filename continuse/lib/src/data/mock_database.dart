@@ -24,7 +24,9 @@ class MockDatabase implements DatabaseRepository {
       description: "Wie neu",
       isSwap: true,
       isReserved: false,
-      pictures: [],
+      pictures: [
+        "https://cdn1.home24.net/images/media/catalog/product/400x400/png/e/s/esstisch-bruce-eiche-massiv-eiche-160-x-110-cm-3974412.avif"
+      ],
     ),
     Product(
       id: '2',
@@ -33,7 +35,9 @@ class MockDatabase implements DatabaseRepository {
       description: "Wie neu",
       isSwap: true,
       isReserved: false,
-      pictures: [],
+      pictures: [
+        "https://cdn1.home24.net/images/media/catalog/product/400x400/png/e/s/esstisch-bruce-eiche-massiv-eiche-160-x-110-cm-3974412.avif"
+      ],
     ),
     Product(
       id: '3',
@@ -42,7 +46,9 @@ class MockDatabase implements DatabaseRepository {
       description: "Wie neu",
       isSwap: true,
       isReserved: false,
-      pictures: [],
+      pictures: [
+        "https://cdn1.home24.net/images/media/catalog/product/400x400/png/e/s/esstisch-bruce-eiche-massiv-eiche-160-x-110-cm-3974412.avif"
+      ],
     ),
   ];
 

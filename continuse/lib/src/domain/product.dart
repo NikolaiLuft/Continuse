@@ -8,7 +8,7 @@ class Product {
   bool isSwap;
   // Reservierungsstatus
   bool isReserved;
-  List<Image> pictures;
+  List<String> pictures;
 
   // Konstruktor
   Product({
@@ -23,6 +23,6 @@ class Product {
 }
 
 // Klasse gibts dann in Flutter
-class Image {}
+
 
 // TODO Exkurs optionale params

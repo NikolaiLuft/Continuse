@@ -71,17 +71,22 @@ class HomeProductScreenState extends State<HomeProductScreen> {
                       itemBuilder: (context, index) {
                         Product product = snapshot.data![index];
                         return Card(
-                          child: ListTile(
-                            title: Text(product.title),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: ((context) =>
-                                      DetailScreenProduct(product)),
-                                ),
-                              );
-                            },
+                          child: Column(
+                            children: [
+                              ListTile(
+                                title: Text(product.title),
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: ((context) =>
+                                          DetailScreenProduct(product)),
+                                    ),
+                                  );
+                                },
+                              ),
+                              Image.network(product.pictures[0]),
+                            ],
                           ),
                         );
                       },
